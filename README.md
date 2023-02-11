@@ -17,14 +17,15 @@
 # Horario de clases
 
 
-| Hrs | Lunes          | Martes         | Miercoles      | Jueves         | Viernes       |
-|-----|----------------|----------------|----------------|----------------|---------------|
-| 2pm | Redes          | Redes          | Redes          | Redes          | Redes         |
-| 3pm | P. Logica      | P. Logica      | P. Logica      | P. Logica      | P. Logica     |
-| 4pm | Gestion        | Gestion        | Gestion        | Gestion        | Gestion       |
-| 5pm | S.Programables | S.Programables | S.Programables | S.Programables |               |
-| 6pm | LYAII          | LYAII          | LYAII          | LYAII          | LYAII         |
-| 7pm | F.Profesional  | F.Profesional  | F.Profesional  | F.Profesional  | F.Profesional |
+| HRS | LUNES          | MARTES         | MIERCOLES      | JUEVES         | VIERNES       |
+|:---:|:--------------:|:--------------:|:--------------:|:--------------:|:-------------:|
+| 2PM | REDES          | REDES          | REDES          | REDES          | REDES         |
+| 3PM | P. LOGICA      | P. LOGICA      | P. LOGICA      | P. LOGICA      | P. LOGICA     |
+| 4PM | GESTION        | GESTION        | GESTION        | GESTION        | GESTION       |
+| 5PM | S.PROGRAMABLES | S.PROGRAMABLES | S.PROGRAMABLES | S.PROGRAMABLES |               |
+| 6PM | LYAII          | LYAII          | LYAII          | LYAII          | LYAII         |
+| 7PM | F.PROFESIONAL  | F.PROFESIONAL  | F.PROFESIONAL  | F.PROFESIONAL  | F.PROFESIONAL |
+
 
 
 * Codigo Fuente:
