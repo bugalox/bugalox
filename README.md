@@ -1,5 +1,5 @@
 <a href="https://es.cooltext.com"><img src="https://images.cooltext.com/5643346.png" width="664" height="119" alt="Bienvenidos" /></a>|
-![](imagenes/SP.png)
+![](bugalox/SP.png)
 # Hola 
 * Nombre del alumno :Alejandro Martinez Reyes
 * No. Control: 20210593
