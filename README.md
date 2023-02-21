@@ -213,9 +213,10 @@ for i in range(1, 1001):
         suma += math.sqrt(i)
 
 / Imprimimos el resultado de la suma
-```
 print("La suma de las raíces cuadradas de los números impares entre 1 y 1000 es:", suma)
+```
 ### 13.Determinar si un entero dado es divisible entre 2 y 5
+```
 # Pedimos al usuario que ingrese un número entero
 numero = int(input("Ingresa un número entero: "))
 
@@ -224,7 +225,9 @@ if numero % 2 == 0 and numero % 5 == 0:
     print(numero, "es divisible entre 2 y 5.")
 else:
     print(numero, "no es divisible entre 2 y 5.")
+```
 14.imprimir la suma y el producto de todos los posibles pares diferentes de enteros del 15 al 20
+```
 # Inicializamos la suma y el producto en cero
 suma = 0
 producto = 1
@@ -242,7 +245,9 @@ for i in range(15, 21):
 # Imprimimos la suma y el producto de todos los pares de enteros
 print("La suma de todos los pares de enteros es:", suma)
 print("El producto de todos los pares de enteros es:", producto)
+```
 15.converti libras y onzas a kilogramos
+```
 # Convertir 5 libras y 8 onzas a kilogramos
 libras = 5
 onzas = 8
@@ -253,7 +258,9 @@ peso_en_kg = peso_total_en_libras * 0.45359237 + onzas * 0.0283495231
 
 # Imprimir el resultado
 print("El peso es:", peso_en_kg, "kg")
+```
 16.calcular e imprimir el numero de segundos que hay en una semana  , en tres semanas , en un mes y tres dias
+```
 # Calcular el número de segundos en una semana
 segundos_en_semana = 86400 * 7
 print("Hay", segundos_en_semana, "segundos en una semana")
@@ -269,7 +276,9 @@ print("Hay", segundos_en_mes, "segundos en un mes")
 # Calcular el número de segundos en un mes y tres días
 segundos_en_mes_y_tres_dias = segundos_en_mes + 86400 * 3
 print("Hay", segundos_en_mes_y_tres_dias, "segundos en un mes y tres días")
+```
 17.Enontrar el promedio de N numero .Insertar en primer lugar el valor de n , seguido por los N numero 
+```
 # Leer el valor de N desde el usuario
 n = int(input("Ingrese el valor de N: "))
 
@@ -286,7 +295,9 @@ promedio = suma / n
 
 # Imprimir el promedio
 print("El promedio de los", n, "números es:", promedio)
+```
 18.invertir un numero es escribirlo hacia atras e imprimirlo
+```
 # Leer el número desde el usuario
 num = int(input("Ingrese un número: "))
 
@@ -301,16 +312,22 @@ num_invertido = int(cadena_invertida)
 
 # Imprimir el número invertido
 print("El número invertido es:", num_invertido)
+```
 19.Encontrar el valor absoluto de -6,0,25,-143,-42
+```
 print("El valor absoluto de -6 es:", abs(-6))
 print("El valor absoluto de 0 es:", abs(0))
 print("El valor absoluto de 25 es:", abs(25))
 print("El valor absoluto de -143 es:", abs(-143))
 print("El valor absoluto de -42 es:", abs(-42))
+```
 20.Nancy presneto cuatro pruebas , sus calificaciones fuero 95,88,84,70 , cual es la calificacion final ?
+```
 promedio = (95 + 88 + 84 + 70) / 4
 print("El promedio de Nancy es:", promedio)
+```
 21.Generar 20 conjuntos de 50 numeros al azar , cado uno con valor de 1 a 55 . imprimir el numero mayor al azar , obtenido en cada conunto de 10
+```
 import random
 
 maximos = []
@@ -322,7 +339,9 @@ for i in range(20):
     print(f"El máximo del conjunto {i+1} es: {maximo}")
     
 print("Los máximos son:", maximos)-
+```
 22.Generar x numeros de dos digitos al azar e imprimir todos los numeros menores a su edad  , dodnde x y su edad sean entradas
+```
 import random
 
 x = 10 # número de valores a generar
@@ -340,20 +359,26 @@ print("Números menores a tu edad:")
 for valor in valores:
     if valor < edad:
         print(valor)
+```
 23.Encontrar la media aritmetica de los numeros de 80 y 63
+```
 num1 = 80
 num2 = 63
 
 media = (num1 + num2) / 2
 
 print("La media aritmética de", num1, "y", num2, "es:", media)
+```
 24.Encontrar las raices cuadradas de los enteros del 9 al 25 imprimir el entero y su raiz cuadrada
+```
 import math
 
 for i in range(9, 26):
     raiz_cuadrada = math.sqrt(i)
     print("La raíz cuadrada de", i, "es", raiz_cuadrada)
+```
 25.calcular el cuadrado , cubo ,raiz cuadrada y raiz cubica de los enteros del 1 al 1000 , imprimir los resultados en forma tabular
+```
 import math
 
 # Imprimir encabezado de tabla
@@ -369,3 +394,4 @@ for i in range(1, 1001):
     
     # Imprimir resultados en forma tabular
     print("{}\t{}\t\t{}\t{}\t\t{}".format(i, cuadrado, cubo, raiz_cuadrada, raiz_cubica))
+```
