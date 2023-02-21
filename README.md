@@ -51,3 +51,16 @@ namespace ConsoleApp1
 }
 ```
 <a href="https://es.cooltext.com"><img src="https://images.cooltext.com/5643347.png" width="790" height="119" alt="Buen Curso!!!" /></a>
+
+###1.Escribir un programa que acepte 25 enteros positivos como datos y describir cada uno como impar o par 
+```python
+numeros = []
+for i in range(25):
+    numero = int(input("Ingrese un número entero positivo: "))
+    numeros.append(numero)
+for numero in numeros:
+    if numero % 2 == 1:
+        print(f"El número {numero} es impar.")
+    else:
+        print(f"El número {numero} es par.") 
+```
