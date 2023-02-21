@@ -1,4 +1,4 @@
-1.Escribir un programa que acepte 25 enteros positivos como datos y describir cada uno como impar o par 
+###1.Escribir un programa que acepte 25 enteros positivos como datos y describir cada uno como impar o par 
 ```python
 numeros = []
 for i in range(25):
