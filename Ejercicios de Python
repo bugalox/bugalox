@@ -1,7 +1,6 @@
 print("hola mundo")
 1.Escribir un programa que acepte 25 enteros positivos como datos y describir cada uno como impar o par 
-python
-´´´
+```python
 numeros = []
 for i in range(25):
     numero = int(input("Ingrese un número entero positivo: "))
@@ -11,7 +10,7 @@ for numero in numeros:
         print(f"El número {numero} es impar.")
     else:
         print(f"El número {numero} es par.") 
- ´´´       
+```
 
 2.Determinar cual cantidad es mayor : 375 o 2100
 cantidad1 = 375
