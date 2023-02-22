@@ -76,91 +76,91 @@ else:
 ```
 ### 3.una pulgada equivalente a 2.5 cm , calcular el numero de cm en 32 pulgadas
 ```python
-/Definimos una constante para la equivalencia entre pulgadas y centímetros
+#Definimos una constante para la equivalencia entre pulgadas y centímetros
 PULGADA_A_CM = 2.5
 
-/ Calculamos el número de centímetros en 32 pulgadas
+#Calculamos el número de centímetros en 32 pulgadas
 pulgadas = 32
 cm = pulgadas * PULGADA_A_CM
 
-/ Imprimimos el resultado
+#Imprimimos el resultado
 print(f"{pulgadas} pulgadas son equivalentes a {cm} centímetros.")
 ```
 ### 4.Encontrar la suma de 35 enteros
 ```python
-/Creamos una lista de 35 enteros
+#Creamos una lista de 35 enteros
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 
-/ Inicializamos la variable de suma
+#Inicializamos la variable de suma
 suma = 0
 
-/ Iteramos a través de los números y los sumamos
+#Iteramos a través de los números y los sumamos
 for numero in numeros:
     suma += numero
 
-/ Imprimimos el resultado
+#Imprimimos el resultado
 print("La suma de los 35 enteros es:", suma)
 ```
 ### 5.imprimir la tabla de multiplicar hasta 12x12
 ```python
-/ Iteramos a través de los números del 1 al 12 para la columna
+#Iteramos a través de los números del 1 al 12 para la columna
 for i in range(1, 13):
-    / Iteramos a través de los números del 1 al 12 para la fila
+    #Iteramos a través de los números del 1 al 12 para la fila
     for j in range(1, 13):
-        / Multiplicamos la columna y la fila para obtener el resultado
+        #Multiplicamos la columna y la fila para obtener el resultado
         resultado = i * j
-        / Imprimimos el resultado en formato de tabla
+        #Imprimimos el resultado en formato de tabla
         print(f"{i} x {j} = {resultado}")
-    / Agregamos un espacio en blanco para separar las tablas de multiplicar
+    #Agregamos un espacio en blanco para separar las tablas de multiplicar
     print()
 ```
 ### 6.imprimir la tabla de sumar hasta 12+12
 ```python
-/Iteramos a través de los números del 1 al 12 para la columna
+#Iteramos a través de los números del 1 al 12 para la columna
 for i in range(1, 13):
-    / Iteramos a través de los números del 1 al 12 para la fila
+    #Iteramos a través de los números del 1 al 12 para la fila
     for j in range(1, 13):
-        / Sumamos la columna y la fila para obtener el resultado
+        #Sumamos la columna y la fila para obtener el resultado
         resultado = i + j
-        / Imprimimos el resultado en formato de tabla
+        #Imprimimos el resultado en formato de tabla
         print(f"{i} + {j} = {resultado}")
-    / Agregamos un espacio en blanco para separar las tablas de sumar
+    #Agregamos un espacio en blanco para separar las tablas de sumar
     print()
 ```
 ### 7.Encontrar la suma de los enteros del 1 al 1000
 ```python
-/ Inicializamos la variable de suma en cero
+#Inicializamos la variable de suma en cero
 suma = 0
 
-/Iteramos a través de los números del 1 al 1000 y los sumamos
+#Iteramos a través de los números del 1 al 1000 y los sumamos
 for i in range(1, 1001):
     suma += i
 
-/Imprimimos el resultado
+#Imprimimos el resultado
 print("La suma de los enteros del 1 al 1000 es:", suma)
 ```
 ### 8.Encontrar la suma de todos los enteros pares del 2 al 2000
 ```python
-/Inicializamos la variable de suma en cero
+#Inicializamos la variable de suma en cero
 suma = 0
 
-/ Iteramos a través de los números del 2 al 2000 y sumamos los pares
+#Iteramos a través de los números del 2 al 2000 y sumamos los pares
 for i in range(2, 2001, 2):
     suma += i
 
-/ Imprimimos el resultado
+ #Imprimimos el resultado
 print("La suma de los enteros pares del 2 al 2000 es:", suma)
 ```
 ### 9.de dos numero cualquiera , encontrar la suma e indicar si es positiva , negativa o cero
 ```python
-/ Pedimos al usuario que ingrese dos números
+#Pedimos al usuario que ingrese dos números
 numero1 = float(input("Ingresa el primer número: "))
 numero2 = float(input("Ingresa el segundo número: "))
 
-/ Sumamos los dos números
+#Sumamos los dos números
 suma = numero1 + numero2
 
-/ Verificamos si la suma es positiva, negativa o cero
+#Verificamos si la suma es positiva, negativa o cero
 if suma > 0:
     print("La suma es positiva")
 elif suma < 0:
@@ -170,49 +170,49 @@ else:
 ```
 ### 10.Introducir un entero positivo N , Encontrar la suma de los N enteros .Imprimir cada uno de los enteros y la suma
 ```python
-/ Pedimos al usuario que ingrese un número entero positivo
+#Pedimos al usuario que ingrese un número entero positivo
 N = int(input("Ingresa un número entero positivo: "))
 
-/ Inicializamos la variable de suma en cero
+#Inicializamos la variable de suma en cero
 suma = 0
 
-/ Iteramos a través de los números del 1 al N y los sumamos
+#Iteramos a través de los números del 1 al N y los sumamos
 for i in range(1, N + 1):
     suma += i
     print(i)
 
-/ Imprimimos el resultado de la suma
+#Imprimimos el resultado de la suma
 print("La suma de los", N, "enteros es:", suma)
 ```
 ### 11.introducir n entero.Calcular e imprimir el producto de os numeros pares
 ```python
-/ Pedimos al usuario que ingrese un número entero positivo
+#Pedimos al usuario que ingrese un número entero positivo
 N = int(input("Ingresa un número entero positivo: "))
 
-/ Inicializamos el producto en 1
+#Inicializamos el producto en 1
 producto = 1
 
-/ Iteramos a través de los números del 1 al N y multiplicamos los pares
+#Iteramos a través de los números del 1 al N y multiplicamos los pares
 for i in range(1, N + 1):
     if i % 2 == 0:
         producto *= i
 
-/ Imprimimos el resultado del producto
+#Imprimimos el resultado del producto
 print("El producto de los números pares hasta", N, "es:", producto)
 ```
 ### 12.calcular la suma de las raices cuadradas de los numeros impares que hay entre 1 y 1000
 ```python
 import math
 
-/ Inicializamos la variable de suma en cero
+#Inicializamos la variable de suma en cero
 suma = 0
 
-/ Iteramos a través de los números del 1 al 1000 y sumamos las raíces cuadradas de los impares
+#Iteramos a través de los números del 1 al 1000 y sumamos las raíces cuadradas de los impares
 for i in range(1, 1001):
     if i % 2 != 0:
         suma += math.sqrt(i)
 
-/ Imprimimos el resultado de la suma
+#Imprimimos el resultado de la suma
 print("La suma de las raíces cuadradas de los números impares entre 1 y 1000 es:", suma)
 ```
 ### 13.Determinar si un entero dado es divisible entre 2 y 5
